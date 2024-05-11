@@ -62,8 +62,6 @@
 			{
 				"name": "Ingest Coaches  File",
 				"type": "Copy",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Ingest Athletes File",
