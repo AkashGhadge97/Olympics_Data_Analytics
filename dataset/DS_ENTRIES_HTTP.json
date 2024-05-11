@@ -1,8 +1,8 @@
 {
-	"name": "DS_ATHLETES_HTTP",
+	"name": "DS_ENTRIES_HTTP",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_ATHLETES_HTTP",
+			"referenceName": "LS_ENTRIES_HTTP",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],

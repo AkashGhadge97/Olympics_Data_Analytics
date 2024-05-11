@@ -1,15 +1,18 @@
 {
-	"name": "DS_ATHLETES_HTTP",
+	"name": "DS_ADLS_ENTRIES",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_ATHLETES_HTTP",
+			"referenceName": "LS_ADLS",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation"
+				"type": "AzureBlobFSLocation",
+				"fileName": "EntriesGender.csv",
+				"folderPath": "raw",
+				"fileSystem": "tokyo-olympics-data"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
