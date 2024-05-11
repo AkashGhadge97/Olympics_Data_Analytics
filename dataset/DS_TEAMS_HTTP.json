@@ -1,0 +1,21 @@
+{
+	"name": "DS_TEAMS_HTTP",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_TEAMS_HTTP",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
